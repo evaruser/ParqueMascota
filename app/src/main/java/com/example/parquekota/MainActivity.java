@@ -1,6 +1,8 @@
 package com.example.parquekota;
 
 import android.os.Bundle;
+import android.content.Intent;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -20,5 +22,12 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        Button registrarDueno = findViewById(R.id.btnRegistroDueno);
+        Button registrarMascota = findViewById(R.id.btnRegistroMascota);
+        registrarDueno.setOnClickListener(v ->
+                startActivity(new Intent(this, RegistroDuenoActivity.class)));
+        registrarMascota.setOnClickListener(v ->
+                startActivity(new Intent(this, RegistroMascotaActivity.class)));
     }
 }

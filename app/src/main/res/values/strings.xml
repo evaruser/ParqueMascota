@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">Parque+kota</string>
+    <string name="inicio_titulo">Parque de Mascotas</string>
+    <string name="inicio_descripcion">Administra los registros de dueños y mascotas.</string>
+    <string name="accion_registrar_dueno">Registrar dueño</string>
+    <string name="accion_registrar_mascota">Registrar mascota</string>
+    <string name="titulo_registro_dueno">Registro de dueño</string>
+    <string name="titulo_registro_mascota">Registro de mascota</string>
+    <string name="campo_nombre">Nombre completo</string>
+    <string name="campo_dueno_responsable">Dueño responsable</string>
+    <string name="campo_telefono">Teléfono</string>
+    <string name="campo_email">Correo electrónico (opcional)</string>
+    <string name="campo_contacto_emergencia">Contacto de emergencia (opcional)</string>
+    <string name="campo_nombre_mascota">Nombre de la mascota</string>
+    <string name="campo_especie">Especie</string>
+    <string name="campo_raza">Raza (opcional)</string>
+    <string name="campo_peso">Peso en kg (opcional)</string>
+    <string name="campo_tamano">Tamaño</string>
+    <string name="campo_temperamento">Temperamento (opcional)</string>
+    <string name="campo_vacunas">¿Tiene sus vacunas al día?</string>
+    <string name="campo_notas_medicas">Notas médicas (opcional)</string>
+    <string name="accion_guardar">Guardar registro</string>
+    <string name="accion_nuevo_dueno">Registrar un dueño</string>
+    <string name="selecciona_dueno">Selecciona un dueño</string>
+    <string name="sin_duenos">No hay dueños registrados</string>
+    <string name="selecciona_tamano">Selecciona un tamaño</string>
+    <string name="vacunas_si">Sí</string>
+    <string name="vacunas_no">No</string>
+    <string name="error_nombre_requerido">El nombre es obligatorio.</string>
+    <string name="error_telefono_requerido">El teléfono es obligatorio.</string>
+    <string name="error_telefono_invalido">Escribe entre 10 y 15 dígitos; puedes incluir + al inicio.</string>
+    <string name="error_email_invalido">Escribe un correo válido o deja el campo vacío.</string>
+    <string name="error_dueno_requerido">Selecciona un dueño registrado.</string>
+    <string name="error_mascota_requerida">El nombre de la mascota es obligatorio.</string>
+    <string name="error_tamano_requerido">Selecciona uno de los tamaños disponibles.</string>
+    <string name="error_peso_invalido">El peso debe ser un número mayor que cero.</string>
+    <string-array name="tamanos_mascota">
+        <item>@string/selecciona_tamano</item>
+        <item>Chico</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+        <item>Gigante</item>
+    </string-array>
 </resources>
